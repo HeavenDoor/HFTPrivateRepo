@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'SHPayCenter' => ['SHPayCenter/Assets/**/*.png']
 }
-#  s.resource_bundles = 'PayCenter/Assets/*.png'
+#  s.resource = 'PayCenter/Assets/*.png'
 
 #  s.subspec 'PayParamsGenerator' do |ss|
 #    ss.source_files = 'PayCenter/PayParamsGenerator/*.{h,m}'
