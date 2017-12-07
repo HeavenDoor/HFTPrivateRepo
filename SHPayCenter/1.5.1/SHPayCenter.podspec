@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
   s.source       = { :svn => "http://192.168.11.104:9001/svndata/mobileProduct/IOSDepartment/Componets/Erp4iOS/SHPayCenter/trunk"}
   s.source_files = 'SHPayCenter/Classes/*.{h,m}'
 
+  s.resource_bundles = {
+    'SHPayCenter' => ['SHPayCenter/Assets/**/*.png']
+}
 #  s.resource_bundles = 'PayCenter/Assets/*.png'
 
 #  s.subspec 'PayParamsGenerator' do |ss|
