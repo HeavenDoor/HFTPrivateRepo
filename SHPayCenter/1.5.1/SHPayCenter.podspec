@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = {"shenghai" => "shenghairen@gmail.com" }
   s.ios.deployment_target='7.0'
   s.source       = { :svn => "http://192.168.11.104:9001/svndata/mobileProduct/IOSDepartment/Componets/Erp4iOS/SHPayCenter/trunk"}
-  s.source_files = 'SHPayCenter/Classes/*.{h,m}'
+  s.source_files = 'SHPayCenter/Classes/**/*.{h,m}'
 
   s.resource_bundles = {
     'SHPayCenter' => ['SHPayCenter/Assets/**/*.png']
